@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #1c1e21;
+        font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.facebook-home{
+    background: #f0f2f5;
+    padding: 180px 0;
+}
+.facebook-home .container{
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    width: 60%;
+}
+.home-content img{
+    font-size: 12px;
+    height: 106px;
+    width: auto;
+    margin-left: -30px;
+    margin-top: -120px;
+}
+.home-content p{
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: -10px;
+}
+
+.home-form{
+    width: 40%;
+    text-align: center;
+ 
+}
+.form-card{
+    width: 360px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .1);
+    display: inline-block;
+}
+.fci{
+    font-size: 17px;
+    width: 100%;
+    padding: 14px 16px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    border: none;
+    border: 1px solid #dddfe2;
+    box-sizing: border-box;
+}
+
+.form-card input:focus{
+    border: none;
+}
+.login-btn{
+    box-sizing: border-box;
+    padding: 0 16px;
+    width:100%;
+    font-weight: bold;
+    line-height: 48px;
+    display: inline-block;
+    border-radius: 6px;
+    background: #1877f2;
+    color: #fff;
+    font-size: 20px;
+
+}
+.forget{
+    color: #385898;
+    margin:16px 0 ;
+    display: inline-block;
+    font-size: 16px;
+    transition: .3s;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.new-account-btn{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 6px;
+    background: #42b72a;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    transition: .5s;
+    border: 1px solid #42b72a;
+    box-sizing: content-box;
+}
+.new-account-btn:hover{
+    background: #247206;
+    border: 1px solid #247206;
+}
+.footer{
+    margin-top: 22px;
+    font-size: 14px;
+}
+.footer a{
+    color: #1c1e21;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer span{}
